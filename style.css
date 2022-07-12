@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Share+Tech+Mono&display=swap');
+ * {
+	 font-family: '
+	Share Tech Mono'
+	, monospace;
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
+	 scroll-behavior: smooth;
+	 user-select: none;
+}
+ body {
+	 background-color: #d1d3f2;
+	 height: 100vh;
+	 width: 100vw;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 background-size: 64px 128px;
+}
+ .container {
+	 height: 560px;
+	 width: 900px;
+	 background-color: #fff;
+	 display: flex;
+	 flex-direction: column;
+	 padding: 20px 20px 20px 20px;
+	 align-self: center;
+	 position: relative;
+	 box-shadow: 5px 5px 15px;
+}
+ #title {
+	 text-align: center;
+	 font-size: 2.5em;
+	 font-weight: 900;
+}
+ .visHolder {
+	 position: absolute;
+	 top: 6em;
+}
+ #tooltip {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: absolute;
+	 text-align: center;
+	 width: 160px;
+	 height: 50px;
+	 padding: 2px;
+	 font: 12px;
+	 background: #edf2f8;
+	 box-shadow: 1px 1px 10px;
+	 border-radius: 2px;
+	 pointer-events: none;
+}
+ .fetchUrl {
+	 font-size: 12px;
+	 font-weight: 100;
+}
+ .bar {
+	 border: 0 solid #313bac;
+	 margin: 0;
+	 padding: 0;
+	 fill: #313bac;
+	 margin-right: -3px;
+}
+ .bar:hover {
+	 fill: snow;
+}
+ 
